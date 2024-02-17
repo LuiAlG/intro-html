@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <h1>Heladeria</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Datos del cliente</legend>
+
+            <label for="nombre_cliente">Nombre cliente</label>
+            <input type="text" id="nombre_cliente" name="nombre_cliente" placeholder="Nombre cliente"/>
+            <br/>
+
+            <label for="telefono_cliente">Telefono cliente</label>
+            <input type="tel" id="telefono_cliente"/>
+            <br/>
+
+            <label for="email_cliente">Email cliente</label>
+            <input type="email" id="email_cliente"/>
+            <br/>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Elige tu helado</legend>
+
+            <h2>Sabor</h2>
+            <input type="radio" name="sabor" id="vainilla" value="vainilla"/>vainilla<br/>
+            <input type="radio" name="sabor" id="chocolate" value="chocolate"/>Chocolate<br/>
+            <input type="radio" name="sabor" id="fresa" value="fresa"/>fresa<br/>
+
+            <h2>recipiente</h2>
+            <input type="radio" name="recipiente" id="copa" value="copa"/>copa<br/>
+            <input type="radio" name="recipiente" id="tarro" value="tarro"/>Tarro<br/>
+        
+            <h2>extras</h2>
+            <input type="checkbox" name="extras[]" id="caramelo" value="caramelo"/>caramelo<br/>
+            <input type="checkbox" name="extras[]" id="chocolate" value="chocolate"/>Chocolate<br/>
+            <input type="checkbox" name="extras[]" id="manjar" value="manjar"/>Manjar<br/>
+        </fieldset>
+
+        <input type="submit" value="Enviar"/>
+    </form>
+</body>
+</html>

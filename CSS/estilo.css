@@ -1,0 +1,21 @@
+#titulo {
+    color: tomato;
+}
+
+p.texto {
+    color: blue;
+
+}
+
+.especial {
+    color: blueviolet;
+}
+
+div p {
+    color: brown;
+}
+
+div h2, div h3 {
+    color: chartreuse;
+}
+/* este es un comentario */
